@@ -14,9 +14,7 @@ body {
     font-family: Avenir;
     color: #283742;
 }
-a{
-    cursor: pointer;
-}
+
 .container {
     max-width: 1170px;
     padding: 0 15px;
@@ -30,16 +28,10 @@ li {
     padding-top: 20px;
 }
 
-header {
-    position: fixed;
-    width: 100%;
-}
-
 .Header {
     background-color: rgba(255, 255, 255, 0.45);
     height: 95px;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
-    z-index: 99;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05)
 }
 
 .Header-logo {
@@ -63,62 +55,16 @@ header {
     height: auto;
     background-position: right bottom;
     background-size: cover;
-    width: 100%;
-    float: left;
-    z-index: -1;
-    position: absolute;
-    min-height: 761px;
-
-}
-
-.top-text-wrapper {
-    float: left;
-    width: 100%;
+    margin-top: -146px;
 }
 
 .top-text {
     font-size: 51px;
     Color: #1E389D;
     font-weight: 600;
-    padding: 250px 0 20px 0;
-    margin-bottom: 0;
+    padding: 250px 0 300px 0;
 
 }
-
-.top-text span {
-    color: #FA7564;
-}
-
-.btn-top {
-    float: left;
-    background: #a9ceea;
-    margin-left: 14%;
-    padding: 16px 18px 13px 17px;
-    border-radius: 50%;
-    border: 24px solid #f0f5eaa1;
-    font-size: 24px;
-    color: white;
-    display: block;
-    margin-top: 1em;
-    animation-delay: 0.3s;
-    position: relative;
-    animation: move 1.85s infinite;
-
-}
-
-.btn-top:hover {
-    background:#586dbd;
-}
-@keyframes move {
-    0% {
-        top: 0;
-    }
-
-    50% {
-        top: -20px;
-    }
-
-    100% {
-        top: 0;
-    }
+.top-text span{
+    color:#FA7564;
 }
