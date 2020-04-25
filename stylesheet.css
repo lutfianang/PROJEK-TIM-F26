@@ -1,0 +1,33 @@
+.title {
+  color: #02ccba;
+}
+body {
+  background-color: #F5F7FD;
+  font-family: Avenir;
+  color: #283742;
+}
+li {
+  list-style: none;
+  float: left;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+.Header {
+  background-color: rgba(255, 255, 255, 0.45);
+  height: 95px;
+  box-shadow: rgba(0, 0, 0, 0.05)
+}
+.Header-logo {
+  float: left;
+  color: #273742;
+  padding: 30px 100px;
+  font-weight: bold;
+  font-size: 28px;
+}
+.Header-list {
+  float: right;
+  font-size: 20px;
+  color: #273742;
+  font-weight: 500;
+  padding-right: 100px;
+}
