@@ -1,9 +1,10 @@
+/* BUAT TABLET */
 @media (max-width:1000px){
 	.anggota{
 		width:50%;
 		margin-bottom: 30px;
 	}
-    
+
 /*    code untuk extra 1*/
     .tabel{
 		width:50%;
@@ -29,19 +30,26 @@
 	}
 
 }
-
+/* BUAT SMARTPHONE */
 @media (max-width: 670px){
+/*    code untuk header  */
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
 	.anggota{
 		width:100%;
 		margin-bottom: 30px;
 	}
-    
+
 /*    code untuk extra 1*/
     .tabel{
 		width:100%;
 		margin-bottom: 30px;
 	}
-	
+
 	.pesan {
 	border-radius: 10px;
 	background-color: #283742;
@@ -56,11 +64,3 @@
 	color: white;
 	font-size: 12px;
 	}
-
-	.coment{
-	margin-top: 25px;
-	}
-
-}
-
-
