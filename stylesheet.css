@@ -29,37 +29,57 @@ li {
     list-style: none;
     float: left;
     padding-right: 50px;
-    padding-top: 20px;
+    padding-top : 20px;
 }
 
 header {
     position: fixed;
     width: 100%;
-    z-index: 1;
-    top: 0;
-}
-
-.Header {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.45);
     height: 95px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
+    z-index: 99;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #273742;
+  padding: 18px 30px;
+}
+.header-right {
+  font-size: 20px;
+  color: #273742;
+  float: right;
+  font-weight: 500px;
+}
+
+.header-right a {
+  color: #273742;
+  display: block;
+  float: left;
+  text-decoration: none;
+}
+
+.header-right li{
+  padding-right:40px;
 
 }
 
-.Header-logo {
-    float: left;
-    color: #273742;
-    padding: 30px 100px;
-    font-weight: bold;
-    font-size: 28px;
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
-.Header-list {
-    float: right;
-    font-size: 20px;
-    color: #273742;
-    font-weight: 500;
-    padding-right: 100px;
+.menu-icon {
+  color: #273742;
+  float: right;
+  font-size: 25px;
+  padding: 40px 0;
+  display: none;
 }
 
 .top-wrapper {
