@@ -1,66 +1,112 @@
 /* BUAT TABLET */
-@media (max-width:1000px){
-	.anggota{
-		width:50%;
-		margin-bottom: 30px;
-	}
+@media (max-width:1000px) {
+    .anggota {
+        width: 50%;
+        margin-bottom: 30px;
+    }
 
-/*    code untuk extra 1*/
-    .tabel{
-		width:50%;
-		margin-bottom: 30px;
-	}
-	.pesan {
-	border-radius: 10px;
-	background-color: #283742;
-	width: 150px;
-	height: auto;
-	min-height: 97px;
-	padding: 10px;
-	margin-bottom: 15px;
-	}
+    .utama img {
+        width: auto;
+    }
 
-	.pesan p{
-	color: white;
-	font-size: 12px;
-	}
+    /*    code untuk extra 1*/
+    .tabel {
+        width: 50%;
+        margin-bottom: 30px;
+    }
 
-	.coment{
-	margin-top: 25px;
-	}
+    .pesan {
+        border-radius: 10px;
+        background-color: #283742;
+        width: 90%;
+        height: auto;
+        min-height: 97px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .pesan p {
+        color: white;
+        font-size: 16px;
+    }
+
+    .coment {
+        margin-top: 25px;
+    }
+    
+/*    code untuk contact*/
+     #contact-section .submit {
+        width: 60%;
+        margin-left: 0;
+    }
+    input, textArea{
+        width: 60%;
+    }
+    .contact-left{
+        text-align: left;
+        margin-left: 12px;
+    }
 
 }
+
+/* media queries contact */
+@media (max-width: 768px) {
+
+    #contact-section .contact-form {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    #contact-section .submit {
+        width: 60%;
+        margin-left: 0;
+    }
+    input, textArea{
+        width: 85%;
+    }
+}
+
 /* BUAT SMARTPHONE */
-@media (max-width: 670px){
-/*    code untuk header  */
-  .header-right {
-    display: none;
-  }
-  .menu-icon {
-    display: block;
-  }
-	.anggota{
-		width:100%;
-		margin-bottom: 30px;
-	}
+@media (max-width: 670px) {
 
-/*    code untuk extra 1*/
-    .tabel{
-		width:100%;
-		margin-bottom: 30px;
-	}
+    /*    code untuk top section*/
+    .top-text {
+        font-size: 40px;
+        padding: 105px 0 20px 0;
+    }
 
-	.pesan {
-	border-radius: 10px;
-	background-color: #283742;
-	width: 150px;
-	height: auto;
-	min-height: 97px;
-	padding: 10px;
-	margin-bottom: 15px;
-	}
+    .top-wrapper {
+        background-position: center;
+    }
 
-	.pesan p{
-	color: white;
-	font-size: 12px;
-	}
+    /*    code untuk header  */
+    .header-right {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .anggota {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    /*    code untuk extra 1*/
+    .tabel {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .pesan {
+        border-radius: 10px;
+        background-color: #283742;
+        width: 100%;
+        height: auto;
+        min-height: 97px;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+}
