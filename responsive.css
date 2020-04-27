@@ -33,19 +33,33 @@
     .coment {
         margin-top: 25px;
     }
-    
-/*    code untuk contact*/
-     #contact-section .submit {
+
+    /*    code untuk contact*/
+    #contact-section .submit {
         width: 60%;
         margin-left: 0;
     }
-    input, textArea{
+
+    input,
+    textArea {
         width: 60%;
     }
-    .contact-left{
+
+    .contact-left {
         text-align: left;
         margin-left: 12px;
     }
+
+    .skill-container {
+
+        width: 100%;
+    }
+
+    .item img {
+        width: 70px;
+    }
+
+
 
 }
 
@@ -62,14 +76,31 @@
         width: 60%;
         margin-left: 0;
     }
-    input, textArea{
+
+    input,
+    textArea {
         width: 85%;
     }
 }
 
 /* BUAT SMARTPHONE */
 @media (max-width: 670px) {
-    .heading h2, .container-contact h2{
+        .skill-container {
+
+        width: 100%;
+    }
+
+    .item img {
+        width: 70px;
+    }
+    .item {
+        width: 70%;
+        display: block;
+        margin: 11px auto;
+    }
+
+    .heading h2,
+    .container-contact h2 {
         font-size: 32px;
     }
 

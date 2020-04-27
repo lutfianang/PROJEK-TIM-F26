@@ -217,15 +217,17 @@ header {
 
 }
 
-.anggota:hover  img {
+.anggota:hover img {
     transform: scale(1.1);
 }
-.anggota a i{
+
+.anggota a i {
     opacity: 0;
-    transition: transform .5s ease; 
+    transition: transform .5s ease;
 }
-.anggota a:hover i{
-   opacity: 1;
+
+.anggota a:hover i {
+    opacity: 1;
 }
 
 .heading h2 {
@@ -249,7 +251,7 @@ header {
     border-radius: 10px;
     transition: transform .5s ease;
     /*    margin-bottom: 20px;*/
-/*    filter: grayscale();*/
+    /*    filter: grayscale();*/
 }
 
 .tim {
@@ -304,6 +306,54 @@ header {
     font-weight: 400;
     color: #4200ff;
     text-decoration: none;
+}
+
+/*code bagian skill*/
+.skill h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px !Important;
+}
+
+.skill-container {
+    margin: 40px auto 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    float: none;
+    margin-top: 40px;
+    width: 70%;
+}
+
+.item {
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 15px 20px rgba(0, 0, 0, 0.06);
+    margin: 11px;
+}
+
+.item {
+    padding: 15px;
+    width: 30%;
+}
+
+.item p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(40, 55, 66, 0.6);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skill .title-line {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.item img {
+    width: 90px;
 }
 
 /*code untuk bagian extra 1*/
