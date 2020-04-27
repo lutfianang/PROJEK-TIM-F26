@@ -20,7 +20,7 @@ body {
 }
 
 a {
-    cursor: pointer!important;
+    cursor: pointer !important;
 }
 
 .container {
@@ -50,10 +50,15 @@ header {
 }
 
 .header-left h1 {
-    font-size: 28px;
+    font-size: 26px;
     font-weight: bold;
     color: #273742;
     padding: 7px 0px;
+    background-image: -webkit-linear-gradient(45deg, #8340ff 15%, #5900ff 65%);
+    background-image: linear-gradient(45deg, #8340ff 15%, #5900ff 65%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .header-right {
@@ -212,6 +217,17 @@ header {
 
 }
 
+.anggota:hover  img {
+    transform: scale(1.1);
+}
+.anggota a i{
+    opacity: 0;
+    transition: transform .5s ease; 
+}
+.anggota a:hover i{
+   opacity: 1;
+}
+
 .heading h2 {
     font-size: 40px;
     font-weight: bold;
@@ -231,8 +247,9 @@ header {
     height: auto;
     max-height: 194px;
     border-radius: 10px;
+    transition: transform .5s ease;
     /*    margin-bottom: 20px;*/
-    /*    filter: grayscale();*/
+/*    filter: grayscale();*/
 }
 
 .tim {
@@ -248,24 +265,30 @@ header {
     color: #283742;
     margin-bottom: 20px;
 }
-.nama span{
+
+.nama span {
     font-size: larger;
     margin-right: 10px;
 }
-.nama span.style1{
-   color: #e46f6e;
+
+.nama span.style1 {
+    color: #e46f6e;
 }
-.nama span.style2{
-   color: #FFCA00;
+
+.nama span.style2 {
+    color: #FFCA00;
 }
-.nama span.style3{
-   color: #C2CDFA;
+
+.nama span.style3 {
+    color: #C2CDFA;
 }
-.nama span.style4{
-   color: #89BD49;
+
+.nama span.style4 {
+    color: #89BD49;
 }
-.nama span.style5{
-   color: #4AD6DE;
+
+.nama span.style5 {
+    color: #4AD6DE;
 }
 
 .biodata {
@@ -321,6 +344,7 @@ header {
     display: flex;
     flex-wrap: wrap;
 }
+
 /* contact form css */
 
 
@@ -338,7 +362,7 @@ header {
     text-align: left;
     font-size: 40px;
     color: white;
- 
+
     letter-spacing: 2px;
 }
 
@@ -348,9 +372,10 @@ header {
     padding-bottom: 5%;
     color: white;
     letter-spacing: 3px;
-    
+
 }
-.collaborate{
+
+.collaborate {
     margin-top: -3em;
 }
 
@@ -408,7 +433,7 @@ textarea {
     border: none;
     outline: none;
     border-radius: 5px;
-    
+
 }
 
 textarea::placeholder {
@@ -435,7 +460,8 @@ textarea::placeholder {
     color: #fff;
     cursor: pointer;
 }
-footer{
+
+footer {
     background: #283742;
     float: left;
     width: 100%;
@@ -458,6 +484,7 @@ footer p {
     color: white;
     letter-spacing: 3px;
 }
-footer .container{
-       border-top: 1px solid #fff;
+
+footer .container {
+    border-top: 1px solid #fff;
 }
